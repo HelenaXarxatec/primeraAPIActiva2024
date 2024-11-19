@@ -1,0 +1,95 @@
+[33mcommit 9bc8c6fd7bbe0b7af45768d4bc5a41a6a8842fcf[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mdevelop[m[33m)[m
+Author: HelenaXarxatec <helena.sanchis@xarxatecactiva.com>
+Date:   Tue Nov 19 13:28:35 2024 +0100
+
+    Proyecto completado: API de eventos y usuarios
+
+[33mcommit c6bd7159c816672f3d48bc1184b5e69dcc3043b2[m[33m ([m[1;31morigin/develop[m[33m)[m
+Author: Jano Soler <janosolerdiaz@gmail.com>
+Date:   Fri Nov 8 12:10:13 2024 +0100
+
+    feat: gestion errores webservice deleteuser
+
+[33mcommit 247c8b5a2f5d49d6c5a1d6120dbcf921ce164ddc[m
+Author: Jano Soler <janosolerdiaz@gmail.com>
+Date:   Fri Nov 8 00:22:18 2024 +0100
+
+    feat: validación formulario
+
+[33mcommit 45b243e4ed6d124abacf83bb86758ba18cd4f18d[m
+Author: Jano Soler <janosolerdiaz@gmail.com>
+Date:   Thu Nov 7 13:12:55 2024 +0100
+
+    ref: cambios en routers
+
+[33mcommit 82ab198bbece4e6eb96c073598157f45e83bf5bc[m
+Author: Jano Soler <janosolerdiaz@gmail.com>
+Date:   Wed Nov 6 14:43:08 2024 +0100
+
+    feat: delete user service
+
+[33mcommit b1c145fc4b51d82eb3e9a6262f445191103db12e[m
+Author: Jano Soler <janosolerdiaz@gmail.com>
+Date:   Tue Nov 5 12:05:22 2024 +0100
+
+    feat: creada carpeta types y el type User, y refactor asociado. En el fron uso Axios
+
+[33mcommit 34a898349bc6fae0fb59bf8ee6389aef3840ed7c[m
+Author: Jano Soler <janosolerdiaz@gmail.com>
+Date:   Thu Oct 31 10:35:10 2024 +0100
+
+    config: estructura para transpilar scripts en tsc para el front
+
+[33mcommit 974143a02313c862a8b943cbf2aa2b640e1f481d[m
+Author: Jano Soler <janosolerdiaz@gmail.com>
+Date:   Tue Oct 29 13:24:17 2024 +0100
+
+    feat: endpoints nuevos get/users get/users/{id}
+
+[33mcommit d9f6320b157b916d87b3aaa0dfe0297be930e187[m
+Author: Jano Soler <janosolerdiaz@gmail.com>
+Date:   Tue Oct 29 11:15:44 2024 +0100
+
+    feat: introducción a mamejo de errores
+
+[33mcommit 152806a102a509b6b34fe5df0648277f4bc985a0[m
+Author: Jano Soler <janosolerdiaz@gmail.com>
+Date:   Tue Oct 29 10:05:53 2024 +0100
+
+    ref: nueva estructura de carpetas
+
+[33mcommit b9ae4e2cc3d396888f309c8601f3d47484bdcd6b[m
+Author: Jano Soler <janosolerdiaz@gmail.com>
+Date:   Fri Oct 25 15:55:48 2024 +0200
+
+    feat: introducimos el router, manejadores y modelo
+
+[33mcommit 2d14f90b53dd30d721fd7d82edcbceace9d783c4[m
+Author: Jano Soler <janosolerdiaz@gmail.com>
+Date:   Mon Oct 21 13:20:48 2024 +0200
+
+    feat: dotenv, postgresql y primera consulta a BD
+
+[33mcommit 6673aa91457c12db320c52bddda2eae535dc47cc[m
+Author: Jano Soler <janosolerdiaz@gmail.com>
+Date:   Wed Oct 16 13:26:24 2024 +0200
+
+    feat: get para atender otra ruta de otra página estática
+
+[33mcommit b200850e94ff9fdaf6314ddb999d77665bf80c62[m
+Author: Jano Soler <janosolerdiaz@gmail.com>
+Date:   Wed Oct 16 12:50:52 2024 +0200
+
+    feat: configurado servidor de archivos estáticos
+
+[33mcommit c7cc5a124bd44601cdca4e40bdcb69cd7502ce7c[m[33m ([m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Jano Soler <janosolerdiaz@gmail.com>
+Date:   Wed Oct 16 11:25:54 2024 +0200
+
+    fix: added type module package.json
+
+[33mcommit bd4b87ee09ee9c5ac981db598b27dbd7c3e74934[m
+Author: Jano Soler <janosolerdiaz@gmail.com>
+Date:   Wed Oct 16 11:08:50 2024 +0200
+
+    initial commit
