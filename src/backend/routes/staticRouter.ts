@@ -14,5 +14,16 @@ staticRouter.get('/usersManagement', (req: Express.Request, res: Express.Respons
     res.sendFile(targetFilePath);
 });
 
+staticRouter.get('/newEvent', (req: Express.Request, res: Express.Response) => {
+    const targetFilePath = path.join(publicPath, "/newEvent.html");
+    res.sendFile(targetFilePath);
+});
+
+staticRouter.get('/eventsManagement', (req: Express.Request, res: Express.Response) => {
+    const targetFilePath = path.join(publicPath, "/eventsManagement.html");
+    res.sendFile(targetFilePath);
+});
+
+
 export {staticRouter} ;
 

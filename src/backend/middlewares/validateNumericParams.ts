@@ -1,4 +1,3 @@
-
 import Express from 'express';
 
 export function validateNumericParams(req: Express.Request, res: Express.Response, next: Express.NextFunction) {

@@ -15,3 +15,12 @@ document.addEventListener("DOMContentLoaded", () => __awaiter(void 0, void 0, vo
     htmlUsers += "</ul>";
     document.getElementById("users").innerHTML = htmlUsers;
 }));
+document.addEventListener("DOMContentLoaded", () => __awaiter(void 0, void 0, void 0, function* () {
+    const result = yield axios.get("http://localhost:3000/api/v1/events");
+    let htmlEvents = "<ul>";
+    result.data.forEach((event) => {
+        htmlEvents += `<li>${event.eventName} (${event.eventType}) - ${event.location}, $${event.ticketPrice.toFixed(2)}</li>`;
+    });
+    htmlEvents += "</ul>";
+    document.getElementById("events").innerHTML = htmlEvents;
+}));
